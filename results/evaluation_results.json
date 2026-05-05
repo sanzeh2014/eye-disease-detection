@@ -1,0 +1,81 @@
+{
+  "overall_metrics": {
+    "accuracy": 0.8049113233287858,
+    "precision": 0.8105930858710804,
+    "recall": 0.8049113233287858,
+    "f1_score": 0.8059949077205729
+  },
+  "per_class_metrics": {
+    "No DR": {
+      "precision": 0.9636871508379888,
+      "recall": 0.9556786703601108,
+      "f1_score": 0.9596662030598053,
+      "support": 361
+    },
+    "Mild": {
+      "precision": 0.5353535353535354,
+      "recall": 0.7162162162162162,
+      "f1_score": 0.6127167630057804,
+      "support": 74
+    },
+    "Moderate": {
+      "precision": 0.7849462365591398,
+      "recall": 0.73,
+      "f1_score": 0.7564766839378239,
+      "support": 200
+    },
+    "Severe": {
+      "precision": 0.42424242424242425,
+      "recall": 0.358974358974359,
+      "f1_score": 0.3888888888888889,
+      "support": 39
+    },
+    "Proliferative": {
+      "precision": 0.5614035087719298,
+      "recall": 0.5423728813559322,
+      "f1_score": 0.5517241379310345,
+      "support": 59
+    }
+  },
+  "confusion_matrix": [
+    [
+      345,
+      13,
+      3,
+      0,
+      0
+    ],
+    [
+      7,
+      53,
+      12,
+      0,
+      2
+    ],
+    [
+      6,
+      22,
+      146,
+      15,
+      11
+    ],
+    [
+      0,
+      3,
+      10,
+      14,
+      12
+    ],
+    [
+      0,
+      8,
+      15,
+      4,
+      32
+    ]
+  ],
+  "confidence_analysis": {
+    "correct_predictions_avg_confidence": 0.906005322933197,
+    "incorrect_predictions_avg_confidence": 0.7450236678123474
+  }
+}

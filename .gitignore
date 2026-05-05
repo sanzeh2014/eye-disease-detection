@@ -1,0 +1,10 @@
+*.pth
+models/*.pth
+models/
+datasets/
+datasets.zip
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,62 @@
+{
+  "datasets": {
+    "aptos_2019": {
+      "total_images": 3662,
+      "class_counts": {
+        "No DR": 1805,
+        "Mild": 370,
+        "Moderate": 999,
+        "Severe": 193,
+        "Proliferative": 295
+      },
+      "class_percentages": {
+        "No DR": 49.29000546149645,
+        "Mild": 10.10376843255052,
+        "Moderate": 27.2801747678864,
+        "Severe": 5.270344074276352,
+        "Proliferative": 8.055707263790278
+      }
+    },
+    "idrid": {
+      "total_images": 455,
+      "class_counts": {
+        "No DR": 129,
+        "Mild": 22,
+        "Moderate": 156,
+        "Severe": 84,
+        "Proliferative": 64
+      },
+      "class_percentages": {
+        "No DR": 28.35164835164835,
+        "Mild": 4.835164835164836,
+        "Moderate": 34.285714285714285,
+        "Severe": 18.461538461538463,
+        "Proliferative": 14.065934065934066
+      }
+    },
+    "messidor_2": {
+      "total_images": 1744,
+      "gradable_images": 1744,
+      "total_original": 1744,
+      "excluded_poor_quality": 0,
+      "class_counts": {
+        "No DR": 1017,
+        "Mild": 270,
+        "Moderate": 347,
+        "Severe": 75,
+        "Proliferative": 35
+      },
+      "class_percentages": {
+        "No DR": 58.31422018348624,
+        "Mild": 15.481651376146788,
+        "Moderate": 19.896788990825687,
+        "Severe": 4.3004587155963305,
+        "Proliferative": 2.0068807339449544
+      },
+      "dme": {
+        "0": 1593,
+        "1": 151
+      }
+    }
+  }
+}
